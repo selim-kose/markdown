@@ -19,3 +19,21 @@ erDiagram
     PRODUCT-CATEGORY ||--|{ PRODUCT : contains
     PRODUCT ||--o{ ORDER-ITEM : "ordered in"
 ```
+
+```mermaid
+	erDiagram
+
+
+	Artist{
+	  int ArtistId
+	  varchar ArtistName
+	  }
+
+	
+	Album{
+	  int AlbumId
+	  varchar AlbumName
+	  }
+
+	  Artist ||--o{ Album : has
+```
