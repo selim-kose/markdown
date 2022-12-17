@@ -8,3 +8,17 @@ Markdown test
       B-->D;
       C-->D;
 ```
+
+erDiagram
+    Artist ||--o{ Album : has
+
+    Artist {
+        int ArtistId
+        varchar Name
+    }
+
+    Album {
+        int AlbumId
+        int ArtistId
+        varchar Title
+    }
