@@ -11,16 +11,4 @@ Markdown test
 
 ```mermaid
   Artist ||--o{ Album : has
-
-    Artist {
-        int ArtistId
-        varchar Name
-    }
-
-    Album {
-        int AlbumId
-        int ArtistId
-        varchar Title
-    }
-
-```    
+```
