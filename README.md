@@ -10,7 +10,8 @@ Markdown test
 ```
 
 ```mermaid
-    Artist ||--o{ Album : has
+
+Artist ||--o{ Album : has
 
     Artist {
         int ArtistId
@@ -22,4 +23,5 @@ Markdown test
         int ArtistId
         varchar Title
     }
+
 ```    
