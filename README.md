@@ -9,7 +9,7 @@ Markdown test
       C-->D;
 ```
 
-erDiagram
+```mermaid
     Artist ||--o{ Album : has
 
     Artist {
@@ -22,3 +22,4 @@ erDiagram
         int ArtistId
         varchar Title
     }
+```    
